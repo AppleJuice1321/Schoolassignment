@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Search engine compatibility-->
+        <meta charset="UTF-8">
+        <!-- Websites name-->
+        <title>CatPhotoApp</title>
+        <style>
+            .kitty {
+                width: 500px;
+                height: auto;
+            }
+
+            .lasagna {
+                width: 500px;
+                height: auto;
+            }
+
+            .cats {
+                width: 500px;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <Header>
+            <!-- heading and subheading-->
+            <h1>CatPhotoApp</h1>
+            <h3>Cat Photos</h3>
+            <!-- Text and link-->
+            <p>See more <a href="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2022-08/hl-yp-cats-579652.jpg?h=a0b0b8d2&itok=m1wEOpop">cat photos</a> in our gallery.</p>
+        </Header>
+
+        <main>
+            <!-- Showcase image-->
+            <img class="kitty" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="Kitty">
+            
+            <!-- Heading-->
+            <h2>Cat list</h2>
+            <!-- Subheading-->
+            <h3>Things cats love:</h3>
+            <!-- List-->
+            <table>
+                <li>Cat nip</li>
+                <li>Laser pointers</li>
+                <li>Lasagna</li>
+            </table>
+            <!-- Showcase image-->
+            <img class="lasagna" src="https://insanelygoodrecipes.com/wp-content/uploads/2021/01/Homemade-Ground-Beef-Lasagna-with-Melted-Cheese.png" alt="Lasagna">
+            <!-- image text italic-->
+            <p>Cats <i>love</i> lasagna</p>
+
+            <!-- Subheading-->
+            <h3>Things cats love:</h3>
+            <!-- List-->
+            <table>
+                <li>Flea treatment</li>
+                <li>Thunder</li>
+                <li>Other cats</li>
+            </table>
+            <!-- Showcase image-->
+            <img class="cats" src="https://a-z-animals.com/media/2022/05/Multiple-cats-on-white-background.jpg" alt="Cats">
+            <!--Image text strong-->
+            <p>Cats <strong>hate</strong> other cats.</p>
+        </main>
+        <footer>
+            <!-- Heading-->
+            <h1>Cat Form</h1>
+            <!-- Checkboxes-->
+            <fieldset>
+                <!-- description-->
+                <legend>Is your Cat an indoor or outdoor cat?</legend>
+                <input type="checkbox" id="indoor" name="indoor">
+                <label for="inddor">Indoor</label>
+                <input type="checkbox" id="Outdoor" name="Outdoor">
+                <label for="Outdoor">Outdoor</label>
+            </fieldset>
+
+            <!-- Checkboxes-->
+            <fieldset>
+                <!-- description-->
+                <legend>What's your cat's personality?</legend>
+                <input type="checkbox" id="loving" name="loving">
+                <label for="loving">Loving</label>
+                <input type="checkbox" id="Lazy" name="Lazy">
+                <label for="Lazy">Lazy</label>
+                <input type="checkbox" id="Energetic" name="Energetic">
+                <label for="Energetic">Energetic</label>
+            </fieldset>
+
+            <!-- Textbox-->
+            <input type="text" placeholder="Cat Photo URL">
+            <!-- Button-->
+            <button>Submit</button>
+            <!-- Text for copyright-->
+            <p>No Copyright - <a href="https://www.freecodecamp.org/">freecodecamp.org</a></p>
+        </footer>
+    </body>
+</html>

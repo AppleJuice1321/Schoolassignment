@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #FFCA27;
+    --dark-color: #155E75;
+    --mid-color: #E5E7EB;
+    --light-color: #F8FAFC;
+      }
+
+      .maling{
+        text-align: center;
+        font: 1em sans-serif;
+        font-weight: bold;
+        padding-bottom: 50px;
+      }
+
+      .maling h1{
+        font-size: 35px;
+        color: var(--dark-color);
+        padding-top: 50px;
+      }
+
+      .maling p{
+        color: var(--dark-color);
+        padding-top: 30px;
+        padding-left: 25%;
+        padding-right: 25%;
+      }
+
+      .maling h2{
+        color: var(--brand-color);
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .maling li{
+        color: var(--dark-color);
+        padding-top: 10px;
+      }
+
+      .vægge{
+        text-align: center;
+        font: 1em sans-serif;
+        font-weight: bold;
+        background-color: var(--dark-color);
+      }
+
+      .vægge h1{
+        font-size: 35px;
+        color: var(--light-color);
+        padding-top: 50px;
+      }
+
+      .vægge p{
+        color: var(--light-color);
+        padding-top: 30px;
+        padding-left: 25%;
+        padding-right: 25%;
+      }
+
+      .vægge h2{
+        color: var(--brand-color);
+        padding-top: 30px;
+      }
+
+      h3{
+        padding-top: 30px;
+        font-size: 70px;
+        color: var(--light-color);
+        padding-bottom: 50px;
+      }
+
+
+

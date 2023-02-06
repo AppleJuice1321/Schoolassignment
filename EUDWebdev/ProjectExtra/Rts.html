@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- Chooses the language in which the website should show-->
+<html lang="en">
+    
+    <head>
+        <!-- Chooses a list with symbols and characters in the search engines -->
+        <meta charset="UTF-8">
+        <!-- Title of the page itself-->
+        <title>RTS Website</title>
+    </head>
+    <body>
+        <header>
+            <!-- Image for the logo of RTS-->
+            <!-- Header beside the Logo-->
+            <h2><img src="https://oplevelsesdage.dk/____impro/1/onewebmedia/RTS%20OFFICIELT%20LOGO%20komprimeret.png?etag=W%2F%22351b-588b1c68%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=141%2B200&extract=0%2B35%2B140%2B165">WU - RTS</h2>
+            <!-- Small navbar with links-->  
+            <p><a href="#">Standardvisninger</a> | <a href="#">Dagens citat</a> | <a href="#">Eksempler</a></p>
+        </header>
+        <main>
+            <!-- Thin line to differentiate sections-->
+            <hr>
+            <!-- Content of the website (texts and (sub)headings)-->
+            <section>
+                <h1>Ingen CSS</h1>
+                <h2>Om Browserens standardvisninger</h2>
+                <p>Denne side indeholder ikke regler for styles men alligevel ser vi en masse visuelle forskelle på elementerne.</p>
+                <p>Det skyldes at webrowsere foramterier de forskellige HTML elementer med en default style regler.</p>
+            </section>
+            <!-- Thin line to differentiate sections-->
+            <hr>
+            <!-- Content of the website (texts and (sub)headings)-->
+            <!-- Includes space-tab, moves text to the right-->
+            <!-- <i> tag for italic-->
+            <section>
+                <h2>Dagens citat</h2>
+                <p>&ensp;&ensp;&ensp;&ensp;&ensp;I look like a <mark>geeky hacker</mark>, but i don't know anything about computers.</p>
+                <p>&ensp;&ensp;&ensp;&ensp;&ensp;<i>Craig Bruce</i></p>
+            </section>
+            <hr>
+            <!-- Thin line to differentiate sections-->
+            <section>
+                <!-- Content of the website (texts and (sub)headings)-->
+                <!-- <i> tag for italic (thin & tilted)-->
+                <h1>Eksempler</h1>
+                <p>Nogle blok-elementer har f.eks. default margins som f.eks. <i>p, h1-h6 </i>og <i>li</i>.</p>
+                <p>Selve typografien i de forskellige tags renderes med normal, kursiv og fed skrift, tekstfarve, udnerstreget eller gennemstreget, afhængig af formatering.</p>
+                <h2>Form-elementer og inputs</h2>
+                <p>Input-felter, fieldsets og textareas har borders/ outlines</p>
+                <!-- An outline/box with elements-->
+                <fieldset>
+                    <!-- Title-->
+                    <legend>Et Fieldset:</legend>
+                    <!-- Heading-->
+                    <h3>Dropdown</h3>
+                    <!-- Creates a dropdown with the chosen option(s)-->
+                    <select name="Dropwdown" id="Noget">
+                        <option value="D1">Dropdowns kan være vældig brugervenlige</option>
+                    </select>
+                    <!-- <br> breaks between lines-->
+                    <br>
+                    <br>
+                    <!-- Thin line to differentiate sections-->
+                    <hr>
+                    <br>
+                    <br>
+                    <!-- Heading-->
+                    <h3>Tekstfelt bemærk at tags inden i tekstfeltet ikke bliver renderet</h3>
+                    <!-- Textarea to write in with a pre-chosen text-->
+                    <textarea name="" id="" cols="38" rows="5">Her er et eksempel på noget HTML markup <h2>Hej med Jer</h2></textarea>
+                </fieldset>
+            </section>
+            <section>
+                <!-- Heading and paragraph-->
+                <h3>Lister</h3>
+                <p>Ordnede og uordnede lister er nogen af de få HTML-elementer der har default horisontal padding.</p>
+                <!-- Ordered list with lists-->
+                <ol>
+                    <li>Her er et nummereret liste-element</li>
+                    <li>Her er et andet nummereret liste-element</li>
+                </ol>
+                <!-- Unordered list with lists-->
+                <ul>
+                    <li><strong>Her er et bullet point, med fed tekst</strong></li>
+                    <li><i>Her er et bullet point, med cursiv tekst</i></li>
+                </ul>
+            </section>
+            <!-- Another section with both headers and paragraphs-->
+            <section>
+                <h3>Tabeller</h3>
+                <p>Blok-elementer renderes som default med 100% bredde, hvilket betyder at vi ikke kan placere dem side om side <br> Men tabel-elementet tillader opdeling af indhold i kolonner. <br>Derfor er tabel elementet blevetmisbrugt godt og grundigt til at præsentere alt muligt indhol i grids.</p>
+                <!-- Tabels with columns and rows-->
+                <table>
+                    <tr>
+                        <!-- Headline-->
+                        <th>Dyretyper</th>
+                        <th>Familie</th>
+                        <th>Favoritmad</th>
+                    </tr>
+                    <tr>
+                        <!-- Column-->
+                        <td>Kat</td>
+                        <td>Pattedyr</td>
+                        <td>Tun</td>
+                    </tr>
+                    <tr>
+                        <!-- Column-->
+                        <td>Python</td>
+                        <td>Krybdyr</td>
+                        <td>Dig</td>
+                    </tr>
+                    <tr>
+                        <!-- Column-->
+                        <td>Måge</td>
+                        <td>Fugl</td>
+                        <td>Hot dogs</td>
+                    </tr>
+                </table>
+            </section>
+            <!-- Thin line to differentiate sections-->
+            <hr>
+            <!-- Bottom of the page with headers and paragraphs, italic-->
+            <footer>
+                <i>
+                    <!-- abbr tag creates a dotted underline with the attribute: title-->
+                    <h3><abbr title="Title1">CMK</abbr> - Roskilde Teknisk Skole</h3>
+                    <p>Pulsen 8</p>
+                    <p>4000 Roskilde</p>
+                </i>
+            </footer>
+        </main>
+    </body>
+</html>

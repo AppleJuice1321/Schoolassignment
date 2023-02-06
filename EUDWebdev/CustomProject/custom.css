@@ -1,0 +1,167 @@
+/* Applies to everything
+==========================================================================  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Color scheme
+==========================================================================  */
+:root {
+    --brand-color: #60A5FA;
+    --dark-color: #152D73;
+    --mid-color: #D4D4D8;
+    --light-color: #F8FAFC;
+}
+
+/* Applies to everything inside body
+==========================================================================  */
+body {
+    background-color: var(--mid-color);
+}
+  
+/* Everything regarding the header
+==========================================================================  */
+.intro {
+    padding: 80px;
+    text-align: center;
+    background-color: var(--brand-color);
+    font-size: 25px;
+}
+  
+nav {
+    background-color: var(--dark-color);
+    overflow: hidden;
+    Display: flex;
+    justify-content: space-between;
+}
+  
+nav li {
+    display: block;
+}
+  
+nav a {
+    display: block;
+    color: var(--light-color);
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 18px;
+}
+  
+nav a:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+  
+span {
+    display: flex;
+}
+
+/* Everything regarding the main
+==========================================================================  */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr {
+    background-color: black;
+    padding: 1px;
+    border: none;
+}
+
+.heading2 {
+    background-color: var(--light-color);
+    color: black;
+    padding: 50px;
+    font-size: large;
+}
+
+.heading2 p {
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    width: auto;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10em 10em;
+    border: 3px solid var(--dark-color);
+}
+
+.card ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.card2 {
+    margin: auto;
+    width: auto;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 152);
+    border-radius: 15px;
+    padding: 5em 10em;
+    border: 3px solid var(--dark-color);
+}
+
+.card2 ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+/* Everything inside footer
+==========================================================================  */
+footer {
+    font-size: 20px;
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    width: 100%;
+}
+
+footer form {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+footer form input,
+footer form textarea {
+  margin-bottom: 1em;
+  padding: 0.5em 10em;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+}
+
+footer form button {
+    background-color: orange;
+    padding: 0.5em 10em;
+    border-radius: 5px;
+    border: 2px solid black
+}
+
+footer form textarea { 
+    padding: 5em 10em;
+}
+
+footer ul {
+    text-decoration: none;
+    list-style: none;
+}
+

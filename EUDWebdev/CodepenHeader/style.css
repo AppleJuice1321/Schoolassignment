@@ -1,0 +1,43 @@
+/*All elements (universal selector), used to remove border and custom the page itself*/
+* {
+    margin: 0; /*Margin customizes a property's borders/all sides (left, right, bottom and top)*/
+    padding: 0; /*Different to the margin, changes the distance between all sides and their appropiate borders*/
+    box-sizing: border-box; /*Changes the border itself of the property or webpage etc.*/
+}
+
+section {
+    padding: 80px;
+    text-align: center;
+    background-color: pink;
+    font-size: 25px;  /* Changes the size of the text*/
+}
+
+nav {
+    background-color: #000000;
+    overflow: hidden; /* Changes formatting size of the element compared with its block formatting*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav li {
+    display: block; /* Block element*/
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center; /* Move the text to the center*/
+    text-decoration: none;
+    padding: 14px 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+        background-color: white;
+        color: black;
+}
+
+span {
+    display: flex;
+  }

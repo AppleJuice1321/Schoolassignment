@@ -1,0 +1,35 @@
+/*All elements (universal selector), used to remove border and custom the page itself*/
+* {
+    /*Margin customizes a property's borders/all sides (left, right, bottom and top)*/
+    margin: 0;
+    /*Different to the margin, changes the distance between all sides and their appropiate borders*/
+    padding: 0;
+    /*Changes the border itself of the property or webpage etc.*/
+    box-sizing: border-box;
+}
+
+body {
+    /*Changes the background color of the body*/
+    background-color: white;
+}
+
+h1 {
+    /*Moves the appropiate text to the center of the page*/
+    text-align: center;
+    color: black;
+    /*Changes the size of the text*/
+    font-size: 150px;
+}
+
+/* Hovering another element to the current*/
+h1:hover {
+    /*Changes the color of the text, NOT the background*/
+    color: turquoise;
+    /*Transition duration while hovering*/
+    transition: 1.5s;
+}
+
+/* Hovering from current element to another*/
+h1:not(:hover) {
+    transition: 1.5s;
+}
