@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --brand-color: #FFCA27;
+    --dark-color: #155E75;
+    --mid-color: #E5E7EB;
+    --light-color: #F8FAFC;
+}
+
+body {
+    width: 100%;
+}
+
+/* ==========================================================================   */
+header {
+    background-repeat: no-repeat;
+    background-image: url(worker.jpg);
+    background-size: 57%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px var(--mid-color);
+}
+
+.topLogo img {
+    height: 70px;
+    aspect-ratio: 1;
+}
+
+.topLinks {
+    display: flex;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-right: 30px;
+
+    list-style: none;
+}
+
+.topLinks a {
+    text-decoration: none;
+
+    color: var(--dark-color);
+}
+
+.topLinks .topLinkButton {
+    border-radius: 3px;
+    padding: 10px 25px;
+
+    color: white;
+    background-color: var(--brand-color);
+}
+
+.topLinkButton:hover {
+    background-color: var(--dark-color);
+}
+
+.topLinkHome:hover {
+    color: var(--brand-color);
+}
+
+/* ==========================================================================   */
+.flexCards {
+    display: grid;
+    grid-template-rows: 1fr .7fr;
+    grid-template-columns: 3.4fr 1fr 1fr 3fr 1fr;
+}
+
+.card.experience.one {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.card.experience.two {
+    grid-row: 1 / 4;
+    grid-column: 4 / 6;
+}
+
+.card.experience:nth-of-type(1) {
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 40px;
+
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.smallCardTitle {
+    font-size: 60px;
+}
+
+.card.experience:nth-of-type(2) {
+    text-align: center;
+}
+
+.introductionTitle {
+    padding-top: 110px;
+    font-size: 40px;
+
+    color: var(--dark-color);
+}
+.introductionSubTitle {
+    color: var(--brand-color);
+    font-size: 20px;
+}
+
+.introductionParagraph {
+    padding-top: 80px;
+    margin: 0 100px;
+
+    color: var(--dark-color);
+}
+
+/* ==========================================================================   */
+.headerSubmitsection {
+    text-align: center;
+    margin-top: 55px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+form {
+    margin-top: -4px;
+    padding-bottom: 100px;
+
+    background-color: var(--dark-color);
+    color: white;
+}
+
+input {
+    margin-right: 15px;
+    width: 100px;
+}
+
+.submitButton {
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+
+    background-color: var(--brand-color);
+}
+
+/* ==========================================================================   */
+.midCard-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    gap: 3rem;
+
+    background-color: var(--mid-color);
+}
+
+.midCard {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: 1.5rem;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    color: var(--dark-color);
+}
+
+.midCard .midCardH1 {
+    font-size: 25px;
+
+    color: var(--brand-color);
+}
+
+.midCard .midCardDescription {
+    font-size: smaller;
+    padding-top: 1rem;
+}
+
+.midCard .midCardParagraph {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.midCard .midCardPrice {
+    text-align: right;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.midCard .midCardDescription2 {
+    text-align: right;
+    padding-top: 0;
+}
+
+/* ==========================================================================   */
+.maling {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+
+    color: var(--dark-color);
+}
+
+.maling h1 {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.maling p {
+    padding-top: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.maling h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    color: var(--brand-color);
+}
+
+.malingList {
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.vægge {
+    text-align: center;
+    font-weight: bold;
+
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.vægge h1 {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.vægge p {
+    padding-top: 30px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.vægge h2 {
+    padding-top: 30px;
+
+    color: var(--brand-color);
+}
+
+.nummer {
+    padding-top: 30px;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+  /* ==========================================================================   */
+.bottomCard-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    gap: 3rem;
+
+    background-color: var(--mid-color);
+}
+
+.bottomCard {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    height: 430px;
+    width: 300px;
+    padding: 1.5rem;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    color: var(--dark-color);
+}
+
+.bottomCardH1 {
+    font-size: 25px;
+}
+
+.bottomCardParagraph {
+    padding-top: 15px;
+    font-size: 1rem;
+}
+
+.bottomCardStars {
+    text-align: center;
+    padding-top: 20px;
+}
+
+  /* ==========================================================================   */
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 200px;
+
+    background-color: var(--mid-color);
+    color: var(--dark-color);
+}
+
+footer img {
+    height: 70px;
+    aspect-ratio: 1;
+}
+
+footer ul {
+    padding: 50px 50px;
+    list-style: none;
+}
+
+footer ul li:first-of-type {
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+footer ul li {
+    display: flex;
+    gap: 1em;
+    place-content: center;
+}
+
+  /* ==========================================================================   */
