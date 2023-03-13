@@ -1,0 +1,35 @@
+p {
+    display: none;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+
+    background-color: beige;
+}
+
+.infoContainer {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: sans-serif;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    text-align: center;
+
+    border: solid black 2px;
+    background-color: white;
+}
+
+.hint {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
