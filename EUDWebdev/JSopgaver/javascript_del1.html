@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .normal {
+            background-color: brown;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+        }
+
+        .skift {
+            background-color: turquoise;
+            color: orangered;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: small;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p>Dette er et afsnit</p>
+    <p id="tekst1">Det er ikke et afsnit!</p>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#" id="Link">You are definitely not prepared for this :D</a>
+    <a href="#" id="Link">Don't you dare - _-</a>
+    <div onMouseOver="this.style.backgroundColor='black';" onMouseOut="this.style.backgroundColor='white';">Imagine <span onMouseOver="this.style.color='yellow';" onMouseOut="this.style.color='black';">coding</span> in JS LMAO</div>
+
+    <div id="ten" class="normal">Jeg ved hvor du bor!</div>
+
+    <script type="text/javascript">
+        // Creates a pop-up window
+        alert('UggaBuggaGummyBeer');
+        // Creates another pop-up window to confirm
+        confirm("Vil du lave lektier");
+        // Writes the chosen words on the page
+        // document.write("Hello World");
+        /* Pop-up by clicking on elements
+        onclick="alert(He's pulling his cock out!!!)"
+        */
+        /*
+        document.addEventListener("click" , function() {
+            alert("- _-")
+        });
+        */
+       // Hashtag = ID, . = Classes
+        document.querySelector("#Link").addEventListener("click" , function() {
+            alert("Something")
+        });
+
+        document.querySelector("#tekst1").addEventListener("click" , function() {
+            alert("Something")
+        });
+
+        document.getElementById("ten").className = "skift"; {    
+            onMouseOver("click");
+        }
+    </script>
+</body>
+</html>
